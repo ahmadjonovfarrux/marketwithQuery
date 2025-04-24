@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@utility container {
+  padding-inline: 10px;
+  margin-inline: auto;
+}
