@@ -17,8 +17,9 @@ function Products() {
       </div>
     );
   }
+
   return (
-    <div className="grid grid-cols-4 gap-x-5 gap-y-10 container">
+    <div className="gird-cols-2 grid md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-10 container">
       {data &&
         data.map((d) => {
           return <ProductCard product={d} key={d.id} />;

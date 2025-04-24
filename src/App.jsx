@@ -1,8 +1,5 @@
-import React, { useEffect } from "react";
-import UserDetails from "./components/UserDetails";
-import { Route, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-
 import ProductDetails from "./components/ProductDetails";
 
 function App() {
